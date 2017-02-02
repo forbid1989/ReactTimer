@@ -4,9 +4,9 @@ var NavBar = require('NavBar');
 var Main = (props) => {
   return (
     <div>
-      <div>
-        <div>
-          <NavBar/>
+      <NavBar/>
+      <div className="row">
+        <div className="columns medium-6 large-4 small-centered">
           <p>Main.jsx Rendered</p>
           {props.children}
         </div>
