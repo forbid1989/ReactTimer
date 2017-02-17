@@ -5,6 +5,7 @@ var Controls = React.createClass({
     countdownStatus: React.PropTypes.string.isRequired
   },
   render: function () {
+
     var {countdownStatus} = this.props;
     var renderStartStopButton = () => {
       if (countdownStatus === 'started') {
@@ -24,4 +25,4 @@ var Controls = React.createClass({
 
 });
 
-module.exports - Controls;
+module.exports = Controls;
